@@ -1,3 +1,14 @@
+.news {
+	margin: 0px, 10px;
+}
+.image-position {
+	overflow: hidden;
+	display: block;
+	padding: auto;
+	margin: 5px, 5px, 0px, 5px;
+	background-size: fill;
+	transition: all .1s;
+}
 html,
 body {
     margin: 0;
@@ -143,7 +154,7 @@ nav a {
     vertical-align: middle;
 }
 nav li.booking a {
-    background: #047ffc;
+    background: rgb(32, 129, 167);
     padding: 10px 25px;
     display: block;
     margin-top: -7px;
@@ -219,7 +230,7 @@ li > a:only-child:after { content: ''; }
 		float: none;
 	}
 	.menu li.active a {
-		color: #047ffc;
+		color: rgb(32, 129, 167);
 	}
 	nav ul li span {
 		color: #333;
@@ -246,7 +257,7 @@ li > a:only-child:after { content: ''; }
 		text-decoration: none;
 		border: none;
 		float: right;
-		background-color: #047ffc;
+		background-color: rgb(32, 129, 167);
 		color: #fff;
 		margin-bottom: 0;
 	}
@@ -373,6 +384,25 @@ li > a:only-child:after { content: ''; }
 }
 
 .banner-top {
+    background: url(../images/changbai.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+a:link, a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	color:white;
+	text-decoration:none;
+}
+
+.banner-top1 {
     background: url(../images/changbai1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -381,17 +411,8 @@ li > a:only-child:after { content: ''; }
     -moz-background-size: cover;
 }
 
-.banner-top1 {
-    background: url(../images/banner2.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-}
-
 .banner-top2 {
-    background: url(../images/banner3.jpg) no-repeat 0px 0px;
+    background: url(../images/changbai3.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -400,7 +421,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .banner-top3 {
-    background: url(../images/banner4.jpg) no-repeat center;
+    background: url(../images/changbai3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -468,14 +489,15 @@ li > a:only-child:after { content: ''; }
     letter-spacing: 1px;
 }
 .about-right img.abt-image {
-    width: 90%;
+	width: 90%;
+	height:90%;
 }
 /*-- //about --*/
 
 /*-- stats --*/
 .counter span.fa {
     font-size: 2em;
-    color: #047ffc;
+    color: rgb(32, 129, 167);
 }
 
 .timer {
@@ -499,10 +521,10 @@ p.count-text {
 
 /*-- book --*/
 .book{
-	background: #047ffc;
+	background: #f3f3f3;
 }
 .book h2.heading{
-	color: #fff;
+	color: rgb(32, 129, 167);
 }
 .grid-info h4 {
     color: #fff;
@@ -525,7 +547,7 @@ p.count-text {
 .icon span.fa{
 	font-size: 25px;
     line-height: 80px;
-    color: #047ffc;
+    color: rgb(32, 129, 167);
 }
 .grid-info {
     padding: 0 1em;
@@ -548,7 +570,7 @@ p.count-text {
 .footer-text p, .contact-info p {
     color: #808080;
     line-height: 1.8em;
-    letter-spacing: 1px;
+	letter-spacing: 1px;
 }
 
 .phone {
@@ -633,7 +655,11 @@ button.btn1 {
 .footer-grid_section_1its_w3 form {
     border: 1px solid #808080;
     width: 100%;
-    margin-top: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+.footer-grid_section{
+	text-align: right;
 }
 ul.social_section_1info li {
     display: inline-block;
@@ -679,7 +705,7 @@ ul.links li a:hover{
     font-size: 1em;
     width: 55px;
     height: 55px;
-    background: #047ffc;
+    background: rgb(32, 129, 167);
     border-radius: 50%;
     cursor: pointer;
     text-align: center;
@@ -714,13 +740,14 @@ li.linkedin a  {
 /*-- text --*/
 
 .text-content {
-    background: url(../images/banner4.jpg) no-repeat center;
+    background: url(../images/attr.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    position: relative;
+	position: relative;
+	text-align: right;
 }
 .overlay-inner {
     background: rgba(0, 0, 0, 0.5);
@@ -740,7 +767,8 @@ h4.tittle {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
     text-transform: capitalize;
     letter-spacing: 2px;
-    margin: 0;
+	margin: 0;
+	text-align: right;
 }
 .test-info a{
     border: 2px solid #fff;
@@ -760,7 +788,8 @@ h4.tittle {
 /*-- packages --*/
 
 h3.heading,h2.heading {
-    font-size: 43px;
+	font-size: 43px;
+	color: rgb(32, 129, 167);
 }
 p.text {
     max-width: 700px;
@@ -771,14 +800,20 @@ p.text {
     background: #fafafa;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+.package-info1 {
+    padding: 0.5em 0.3em;
+    background: #fafafa;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 .view-package a {
-    background: #047ffc;
+    background: rgb(32, 129, 167);
     padding: 13px 30px;
     color: #fff;
     letter-spacing: 1px;
     font-size: 15px;
     margin-top: 10px;
-    display: inline-block;
+	display: inline-block;
+	text-align: center !important;
 }
 .package-info h5 {
     text-transform: capitalize;
@@ -797,16 +832,30 @@ p.text {
     color: #707579;
     text-transform: capitalize;
 }
+
+.image-tour {
+	overflow: hidden;
+	display: block;
+	padding: auto;
+	margin: 5px, 5px, 0px, 5px;
+	background-size: fill;
+	transition: all .3s;
+}
+
 .image-tour p {
     position: absolute;
-    right: 1%;
-    bottom: 2%;
-    background: #047ffc;
-    padding: 5px 10px;
-    color: #fff;
+    left: 25%;
+    top: 40%;
+    padding: 0px 0px;
+	color: #fff;
+	font-size: 1em;
+	font-weight: bold;
 }
+
+
+
 .package-info h6 span.fa {
-	color: #047ffc
+	color: rgb(32, 129, 167)
 }
 ul.listing li {
     letter-spacing: 0px;
@@ -818,14 +867,14 @@ ul.listing li span {
 }
 ul.listing li span.fa {
     font-weight: normal;
-    color: #047ffc;
+    color: rgb(32, 129, 167);
 }
 /*-- //packages --*/
 
 /* destinations */
 .destinations-grids {
     position: relative;
-    overflow: hidden;
+	overflow: hidden;
     z-index: 1;
 }
 
@@ -836,9 +885,8 @@ ul.listing li span.fa {
     letter-spacing: 1px;
 }
 h4.destination {
-    text-transform: uppercase;
     font-size: 20px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 .rating ul li {
     display: inline-block;
@@ -849,7 +897,7 @@ h4.destination {
 }
 
 .rating {
-    background: #047ffc;
+    background: rgb(32, 129, 167);
     position: absolute;
     right: 1%;
     top: 1%;
@@ -868,7 +916,7 @@ h4.destination {
 
 .destinations-info {
     position: absolute;
-    bottom: -227px;
+    bottom: -250px;
     margin: 0;
     background: rgba(0, 0, 0, 0.8);
     padding: 30px 0px 10px;
@@ -977,7 +1025,7 @@ a.move-top span{
     height: 36px;
     border: transparent;
     line-height: 2em;
-    background: #047ffc;
+    background: rgb(32, 129, 167);
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -o-border-radius: 50px;
@@ -1025,7 +1073,7 @@ a.move-top span{
 }
 .inner-sec-grid span.fa {
     font-size: 2em;
-    color: #047ffc;
+    color: rgb(32, 129, 167);
 }
 .choose {
     background: url(../images/choose.jpg) no-repeat center;
@@ -1096,7 +1144,7 @@ a.move-top span{
 }
 
 .tab-main input:checked+label {
-    background: #047ffc;
+    background: rgb(32, 129, 167);
     color: #fff;
 }
 
@@ -1156,7 +1204,7 @@ a.move-top span{
     letter-spacing: 1px;
 }
 .adress-icon span.fa {
-    color: #047ffc;
+    color: rgb(32, 129, 167);
     font-size: 2em;
     vertical-align: middle;
 }
@@ -1184,7 +1232,7 @@ button.sent-butnn {
     letter-spacing: 2px;
     outline: none;
 	color: #fff;
-	background: #047ffc;
+	background: rgb(32, 129, 167);
     border-radius: 0px;
     padding: 10px 20px;
 }
@@ -1218,7 +1266,7 @@ button.sent-butnn {
 /*-- services --*/
 .about-icon span.fa {
     font-size: 2em;
-    color: #047ffc;
+    color: rgb(32, 129, 167);
 }
 .main-title-text h4 {
     font-size: 22px;
@@ -1227,7 +1275,7 @@ button.sent-butnn {
     line-height: 35px;
     font-weight: 600;
     text-align: center;
-    background: #047ffc;
+    background: rgb(32, 129, 167);
     color: #fff;
     padding: 20px;
 }
@@ -1243,7 +1291,7 @@ h3.tittle {
     font-size: 13px;
 }
 .right-cont ul li span.fa {
-    color: #047ffc;
+    color: rgb(32, 129, 167);
     margin-right: 3px;
     font-size: 14px;
 }
@@ -1360,6 +1408,8 @@ p.duration {
 	}
 	.image-tour img{
 		width:100%;
+		height: auto;
+
 	}
 	.caption a {
 		font-size: 14px;
