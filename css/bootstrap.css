@@ -486,6 +486,7 @@ mark,
   transition: all .4s;
 }
 
+
 .img-fluid:hover {
   cursor: crosshair;
   /*放大倍数*/
@@ -2525,8 +2526,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: rgb(32, 129, 167);
+  border-color: rgb(32, 129, 167);
 }
 
 .btn-primary:hover {
