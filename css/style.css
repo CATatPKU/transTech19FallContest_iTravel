@@ -1046,17 +1046,17 @@ a.move-top span{
 
 /*-- inner banner --*/
 .banner_inner {
-    background: url(../images/banner1.jpg) no-repeat center;
+    background: url(../images/cont1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-	min-height: 300px;
+	min-height: 500px;
 }
 .banner_inner_overlay{
     background: rgba(0, 0, 0, 0.5);
-	min-height: 300px;
+	min-height: 500px;
 }
 
 /*-- //inner banner --*/
@@ -1266,7 +1266,7 @@ button.sent-butnn {
 .map iframe {
     border: none;
     outline: none;
-    height: 350px;
+    height: 750px;
     width: 100%;
 }
 /*-- contact --*/
@@ -1434,7 +1434,7 @@ p.duration {
 		padding: 3em 2em;
 	}
 	.map iframe {
-		height: 300px;
+		height: 750px;
 	}
 	.adress-w3pvt-info p {
 		font-size: 14px;
@@ -1632,7 +1632,7 @@ p.duration {
 		line-height: 32px;
 	}
 	.map iframe {
-		height: 250px;
+		height: 750px;
 	}
 }
 @media(max-width:384px) {
