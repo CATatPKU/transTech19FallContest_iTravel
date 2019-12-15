@@ -156,9 +156,10 @@ nav a {
 }
 nav li.booking a {
     background: rgb(32, 129, 167);
-    padding: 10px 25px;
+    padding: 6px 10px;
     display: block;
-    margin-top: -7px;
+	margin-top: -2px;
+	margin-right: 12px;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 1px;
@@ -1832,3 +1833,22 @@ p.duration {
     .box1 .box1-content{ padding: 20px; }
 }
 /*-- //Responsive design --*/
+.sb-search-input {
+    position: absolute;
+    top: 0px;
+    border: none;
+    outline: none;
+    background:rgba(190, 190, 190, 0.123);
+    height: 31px;
+    margin-right: 0.5em;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 0em 0 0.5em;
+	-webkit-appearance: none;
+	width: 15%;
+}
+
+::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.801);
+	font-size:12px;
+  }
